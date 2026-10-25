@@ -1,0 +1,4 @@
+model_tier,input_gbp_per_mtok,output_gbp_per_mtok
+large,4.0,20.0
+medium,1.2,6.0
+small,0.25,1.25

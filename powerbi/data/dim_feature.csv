@@ -1,0 +1,7 @@
+feature_id,feature,team_id,system_prompt_tokens
+1,Ticket reply drafting,1,3000
+2,Claim document summary,2,1200
+3,Coding assistant,3,2500
+4,Risk note extraction,4,800
+5,Campaign copy,5,600
+6,HR policy assistant,6,1500

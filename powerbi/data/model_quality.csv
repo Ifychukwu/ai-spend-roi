@@ -1,0 +1,19 @@
+feature,model_tier,acceptance_rate
+Ticket reply drafting,large,0.86
+Ticket reply drafting,medium,0.85
+Ticket reply drafting,small,0.74
+Claim document summary,large,0.91
+Claim document summary,medium,0.84
+Claim document summary,small,0.66
+Coding assistant,large,0.78
+Coding assistant,medium,0.69
+Coding assistant,small,0.48
+Risk note extraction,large,0.93
+Risk note extraction,medium,0.92
+Risk note extraction,small,0.9
+Campaign copy,large,0.82
+Campaign copy,medium,0.81
+Campaign copy,small,0.73
+HR policy assistant,large,0.95
+HR policy assistant,medium,0.95
+HR policy assistant,small,0.94

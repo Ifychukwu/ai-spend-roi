@@ -1,0 +1,255 @@
+{
+  "period": "2026-Q3",
+  "totals": {
+    "token_cost_gbp": 13827.97,
+    "platform_cost_gbp": 18000.0,
+    "total_cost_gbp": 31827.97,
+    "value_gbp": 152721.07,
+    "value_if_survey_believed_gbp": 301057.11,
+    "hours_saved": 3913.0,
+    "roi": 3.798,
+    "token_share_of_total_cost_pct": 43.4
+  },
+  "pilot": [
+    {
+      "team_id": 1,
+      "minutes_saved": 2.94,
+      "ci_low": 2.35,
+      "ci_high": 3.54,
+      "n_control": 826,
+      "n_ai": 774,
+      "team": "Customer Support"
+    },
+    {
+      "team_id": 2,
+      "minutes_saved": 11.96,
+      "ci_low": 9.24,
+      "ci_high": 14.6,
+      "n_control": 349,
+      "n_ai": 351,
+      "team": "Claims"
+    }
+  ],
+  "survey_haircut": 0.512,
+  "teams": [
+    {
+      "team": "Claims",
+      "outcome_unit": "claim processed",
+      "ai_assisted_outcomes": 5918,
+      "token_cost_gbp": 2344.2706,
+      "platform_cost_gbp": 1280.6035,
+      "total_cost_gbp": 3624.8741,
+      "token_cost_per_outcome_gbp": 0.3961,
+      "total_cost_per_outcome_gbp": 0.6125,
+      "method": "randomised pilot",
+      "self_reported_minutes_saved": 20.9,
+      "minutes_saved": 11.9593,
+      "minutes_low": 9.2403,
+      "minutes_high": 14.6007,
+      "hours_saved": 1179.582,
+      "value_gbp": 40105.7883,
+      "value_per_outcome_gbp": 6.7769,
+      "roi": 10.064,
+      "roi_low": 7.5486,
+      "roi_high": 12.5078,
+      "roi_if_survey_believed": 18.3355
+    },
+    {
+      "team": "Underwriting",
+      "outcome_unit": "quote issued",
+      "ai_assisted_outcomes": 2091,
+      "token_cost_gbp": 217.9708,
+      "platform_cost_gbp": 1071.8494,
+      "total_cost_gbp": 1289.8202,
+      "token_cost_per_outcome_gbp": 0.1042,
+      "total_cost_per_outcome_gbp": 0.6168,
+      "method": "survey x pilot haircut",
+      "self_reported_minutes_saved": 10.8,
+      "minutes_saved": 5.5297,
+      "minutes_low": 3.7995,
+      "minutes_high": 7.2599,
+      "hours_saved": 192.71,
+      "value_gbp": 9250.0808,
+      "value_per_outcome_gbp": 4.4238,
+      "roi": 6.1716,
+      "roi_low": 3.9277,
+      "roi_high": 8.4156,
+      "roi_if_survey_believed": 13.0068
+    },
+    {
+      "team": "Customer Support",
+      "outcome_unit": "ticket resolved",
+      "ai_assisted_outcomes": 30898,
+      "token_cost_gbp": 678.9781,
+      "platform_cost_gbp": 6303.3204,
+      "total_cost_gbp": 6982.2985,
+      "token_cost_per_outcome_gbp": 0.022,
+      "total_cost_per_outcome_gbp": 0.226,
+      "method": "randomised pilot",
+      "self_reported_minutes_saved": 6.5,
+      "minutes_saved": 2.9367,
+      "minutes_low": 2.3499,
+      "minutes_high": 3.5393,
+      "hours_saved": 1512.3187,
+      "value_gbp": 42344.9244,
+      "value_per_outcome_gbp": 1.3705,
+      "roi": 5.0646,
+      "roi_low": 3.8527,
+      "roi_high": 6.309,
+      "roi_if_survey_believed": 12.4231
+    },
+    {
+      "team": "Engineering",
+      "outcome_unit": "pull request merged",
+      "ai_assisted_outcomes": 1242,
+      "token_cost_gbp": 10089.9378,
+      "platform_cost_gbp": 7526.4643,
+      "total_cost_gbp": 17616.4021,
+      "token_cost_per_outcome_gbp": 8.1239,
+      "total_cost_per_outcome_gbp": 14.1839,
+      "method": "survey x pilot haircut",
+      "self_reported_minutes_saved": 87.4,
+      "minutes_saved": 44.7496,
+      "minutes_low": 30.7477,
+      "minutes_high": 58.7515,
+      "hours_saved": 926.3168,
+      "value_gbp": 57431.6403,
+      "value_per_outcome_gbp": 46.2413,
+      "roi": 2.2601,
+      "roi_low": 1.2401,
+      "roi_high": 3.2802,
+      "roi_if_survey_believed": 5.3673
+    },
+    {
+      "team": "HR",
+      "outcome_unit": "employee query answered",
+      "ai_assisted_outcomes": 1025,
+      "token_cost_gbp": 234.0649,
+      "platform_cost_gbp": 719.0346,
+      "total_cost_gbp": 953.0995,
+      "token_cost_per_outcome_gbp": 0.2284,
+      "total_cost_per_outcome_gbp": 0.9299,
+      "method": "survey x pilot haircut",
+      "self_reported_minutes_saved": 6.8,
+      "minutes_saved": 3.4817,
+      "minutes_low": 2.3923,
+      "minutes_high": 4.5711,
+      "hours_saved": 59.4784,
+      "value_gbp": 1903.3088,
+      "value_per_outcome_gbp": 1.8569,
+      "roi": 0.997,
+      "roi_low": 0.3721,
+      "roi_high": 1.6218,
+      "roi_if_survey_believed": 2.9003
+    },
+    {
+      "team": "Marketing",
+      "outcome_unit": "campaign asset approved",
+      "ai_assisted_outcomes": 211,
+      "token_cost_gbp": 262.75,
+      "platform_cost_gbp": 1098.7279,
+      "total_cost_gbp": 1361.4779,
+      "token_cost_per_outcome_gbp": 1.2453,
+      "total_cost_per_outcome_gbp": 6.4525,
+      "method": "survey x pilot haircut",
+      "self_reported_minutes_saved": 23.4,
+      "minutes_saved": 11.981,
+      "minutes_low": 8.2322,
+      "minutes_high": 15.7298,
+      "hours_saved": 42.1332,
+      "value_gbp": 1685.3294,
+      "value_per_outcome_gbp": 7.9873,
+      "roi": 0.2379,
+      "roi_low": -0.1495,
+      "roi_high": 0.6252,
+      "roi_if_survey_believed": 1.4177
+    }
+  ],
+  "savings": {
+    "q3_token_cost_gbp": 13827.97,
+    "caching_saving_gbp": 1980.18,
+    "caching_saving_by_feature_gbp": {
+      "Coding assistant": 1666.75,
+      "Claim document summary": 119.84,
+      "HR policy assistant": 106.79,
+      "Campaign copy": 65.33,
+      "Risk note extraction": 21.46
+    },
+    "routing_saving_gbp": 405.41,
+    "routing_saving_by_feature_gbp": {
+      "Risk note extraction": 147.9,
+      "Campaign copy": 138.19,
+      "HR policy assistant": 119.32
+    },
+    "routing_decisions": [
+      {
+        "feature": "Campaign copy",
+        "from": "large",
+        "to": "medium",
+        "quality_from": 0.82,
+        "quality_to": 0.81
+      },
+      {
+        "feature": "HR policy assistant",
+        "from": "large",
+        "to": "small",
+        "quality_from": 0.95,
+        "quality_to": 0.94
+      },
+      {
+        "feature": "Risk note extraction",
+        "from": "medium",
+        "to": "small",
+        "quality_from": 0.92,
+        "quality_to": 0.9
+      }
+    ],
+    "q3_cost_after_both_gbp": 11442.38,
+    "saving_pct": 17.3,
+    "retry_storm_excess_cost_gbp": 835.21
+  },
+  "over_budget_months": [
+    {
+      "team": "Engineering",
+      "month": "2026-06",
+      "token_cost_gbp": 3497.2,
+      "monthly_budget_gbp": 3200
+    },
+    {
+      "team": "Engineering",
+      "month": "2026-08",
+      "token_cost_gbp": 3422.56,
+      "monthly_budget_gbp": 3200
+    },
+    {
+      "team": "Engineering",
+      "month": "2026-09",
+      "token_cost_gbp": 3497.96,
+      "monthly_budget_gbp": 3200
+    },
+    {
+      "team": "Marketing",
+      "month": "2026-06",
+      "token_cost_gbp": 79.82,
+      "monthly_budget_gbp": 75
+    },
+    {
+      "team": "Marketing",
+      "month": "2026-07",
+      "token_cost_gbp": 79.58,
+      "monthly_budget_gbp": 75
+    },
+    {
+      "team": "Marketing",
+      "month": "2026-08",
+      "token_cost_gbp": 85.0,
+      "monthly_budget_gbp": 75
+    },
+    {
+      "team": "Marketing",
+      "month": "2026-09",
+      "token_cost_gbp": 98.17,
+      "monthly_budget_gbp": 75
+    }
+  ]
+}

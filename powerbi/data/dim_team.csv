@@ -1,0 +1,7 @@
+team_id,team,headcount,loaded_hourly_cost_gbp,outcome_unit,monthly_budget_gbp
+1,Customer Support,60,28.0,ticket resolved,450
+2,Claims,35,34.0,claim processed,850
+3,Engineering,40,62.0,pull request merged,3200
+4,Underwriting,20,48.0,quote issued,90
+5,Marketing,12,40.0,campaign asset approved,75
+6,HR,6,32.0,employee query answered,90

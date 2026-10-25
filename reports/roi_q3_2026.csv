@@ -1,0 +1,7 @@
+team,outcome_unit,ai_assisted_outcomes,token_cost_gbp,platform_cost_gbp,total_cost_gbp,token_cost_per_outcome_gbp,total_cost_per_outcome_gbp,method,self_reported_minutes_saved,minutes_saved,minutes_low,minutes_high,hours_saved,value_gbp,value_per_outcome_gbp,roi,roi_low,roi_high,roi_if_survey_believed
+Claims,claim processed,5918,2344.2706,1280.6035,3624.8741,0.3961,0.6125,randomised pilot,20.9,11.9593,9.2403,14.6007,1179.582,40105.7883,6.7769,10.064,7.5486,12.5078,18.3355
+Underwriting,quote issued,2091,217.9708,1071.8494,1289.8202,0.1042,0.6168,survey x pilot haircut,10.8,5.5297,3.7995,7.2599,192.71,9250.0808,4.4238,6.1716,3.9277,8.4156,13.0068
+Customer Support,ticket resolved,30898,678.9781,6303.3204,6982.2985,0.022,0.226,randomised pilot,6.5,2.9367,2.3499,3.5393,1512.3187,42344.9244,1.3705,5.0646,3.8527,6.309,12.4231
+Engineering,pull request merged,1242,10089.9378,7526.4643,17616.4021,8.1239,14.1839,survey x pilot haircut,87.4,44.7496,30.7477,58.7515,926.3168,57431.6403,46.2413,2.2601,1.2401,3.2802,5.3673
+HR,employee query answered,1025,234.0649,719.0346,953.0995,0.2284,0.9299,survey x pilot haircut,6.8,3.4817,2.3923,4.5711,59.4784,1903.3088,1.8569,0.997,0.3721,1.6218,2.9003
+Marketing,campaign asset approved,211,262.75,1098.7279,1361.4779,1.2453,6.4525,survey x pilot haircut,23.4,11.981,8.2322,15.7298,42.1332,1685.3294,7.9873,0.2379,-0.1495,0.6252,1.4177
